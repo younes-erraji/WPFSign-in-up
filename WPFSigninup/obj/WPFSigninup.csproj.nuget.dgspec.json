@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\internship\\Desktop\\Younes\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj": {}
+    "C:\\Users\\Younes\\source\\repos\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\internship\\Desktop\\Younes\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj": {
+    "C:\\Users\\Younes\\source\\repos\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\internship\\Desktop\\Younes\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj",
+        "projectUniqueName": "C:\\Users\\Younes\\source\\repos\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj",
         "projectName": "WPFSigninup",
-        "projectPath": "C:\\Users\\internship\\Desktop\\Younes\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj",
-        "packagesPath": "C:\\Users\\internship\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\internship\\Desktop\\Younes\\WPFSigninup\\WPFSigninup\\obj\\",
+        "projectPath": "C:\\Users\\Younes\\source\\repos\\WPFSigninup\\WPFSigninup\\WPFSigninup.csproj",
+        "packagesPath": "C:\\Users\\Younes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Younes\\source\\repos\\WPFSigninup\\WPFSigninup\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\internship\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Younes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -39,6 +44,22 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,12 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -63,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

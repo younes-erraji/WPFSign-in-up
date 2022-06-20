@@ -7,21 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\WindowHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="WindowSettings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WindowSign_in.xaml.cs">
+    <Compile Update="Views\Auth\WindowSign_in.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\WindowHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="WindowSettings.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowSign_up.xaml">
+    <Page Update="Views\Auth\WindowSign_up.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowSign_in.xaml">
+    <Page Update="Views\Auth\WindowSign_in.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

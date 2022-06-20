@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Windows;
-using System.Windows.Navigation;
 
-namespace WPFSigninup
+namespace WPFSigninup.Views.Auth
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

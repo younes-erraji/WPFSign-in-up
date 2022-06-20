@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\internship\Desktop\Younes\WPFSigninup\WPFSigninup\obj\Debug\net5.0-windows\
+C:\Users\Younes\source\repos\WPFSigninup\WPFSigninup\obj\Debug\net5.0-windows\
 WPFSigninup
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\internship\Desktop\Younes\WPFSigninup\WPFSigninup\App.xaml
-3-794798481
+C:\Users\Younes\source\repos\WPFSigninup\WPFSigninup\App.xaml
+4-1937101974
 1-913308027
-7830721118
-193-1891726104
-WindowSettings.xaml;WindowSign_in.xaml;WindowSign_up.xaml;
+10-1971347300
+214875541090
+Views\Auth\WindowSign_in.xaml;Views\Auth\WindowSign_up.xaml;Views\WindowHome.xaml;WindowSettings.xaml;
 
 True
 
